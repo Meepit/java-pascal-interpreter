@@ -121,5 +121,5 @@ public class ArithmeticTests {
         assertEquals(5, result);
     }
 
-    
+
 }

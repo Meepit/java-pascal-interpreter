@@ -71,7 +71,7 @@ public class Interpreter {
         //Arithmetic expression parser / interpreter.
         // expr : term((PLUS | MINUS) term)*
         // term : factor((MUL | DIV) factor)*
-        // factor : INTEGER
+        // factor : INTEGER | LPAREN expr RPAREN
         int result = term();
         while(this.lowPrecOperations.contains(currentToken.getType())){
             Token token = currentToken;

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65e4a43-a40c-4635-84d0-0b24b5ab8329" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/Interpreter.java" afterPath="$PROJECT_DIR$/src/Interpreter.java" />
-      <change beforePath="$PROJECT_DIR$/src/InterpreterTest.java" afterPath="$PROJECT_DIR$/src/InterpreterTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/Lexer.java" afterPath="$PROJECT_DIR$/src/Lexer.java" />
-      <change beforePath="$PROJECT_DIR$/src/TokenType.java" afterPath="$PROJECT_DIR$/src/TokenType.java" />
       <change beforePath="$PROJECT_DIR$/tests/ArithmeticTests.java" afterPath="$PROJECT_DIR$/tests/ArithmeticTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,8 +30,8 @@
           <file leaf-file-name="ArithmeticTests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/ArithmeticTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="747">
-                  <caret line="123" column="4" lean-forward="false" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+                <state relative-caret-position="1845">
+                  <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -115,25 +111,15 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="614">
-                  <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+                <state relative-caret-position="524">
+                  <caret line="78" column="36" lean-forward="true" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
                   <folding>
                     <element signature="e#234#245#0" expanded="true" />
                     <element signature="e#315#326#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="InterpreterTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/InterpreterTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -175,9 +161,9 @@
         <option value="$PROJECT_DIR$/src/Num.java" />
         <option value="$PROJECT_DIR$/src/TokenType.java" />
         <option value="$PROJECT_DIR$/src/Lexer.java" />
-        <option value="$PROJECT_DIR$/src/Interpreter.java" />
         <option value="$PROJECT_DIR$/src/InterpreterTest.java" />
         <option value="$PROJECT_DIR$/tests/ArithmeticTests.java" />
+        <option value="$PROJECT_DIR$/src/Interpreter.java" />
       </list>
     </option>
   </component>
@@ -251,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArithmeticTests.testBrackets">
+  <component name="RunManager" selected="JUnit.ArithmeticTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -436,9 +422,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ArithmeticTests.testBrackets" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InterpreterTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ArithmeticTests" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ArithmeticTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ArithmeticTests.testBrackets" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InterpreterTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ArithmeticTests.testMultiDigitAddition" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ArithmeticTests.testSingleDigitAddition" />
       </list>
@@ -461,9 +447,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArithmeticTests - 2018.01.24 at 09h 55m 51s.xml">
-      <configuration name="ArithmeticTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArithmeticTests - 2018.01.24 at 10h 05m 21s.xml">
       <configuration name="ArithmeticTests" configurationId="JUnit" />
     </history-entry>
@@ -488,6 +471,9 @@
     <history-entry file="ArithmeticTests - 2018.01.24 at 15h 34m 21s.xml">
       <configuration name="ArithmeticTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArithmeticTests - 2018.01.24 at 15h 40m 07s.xml">
+      <configuration name="ArithmeticTests" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ArithmeticTests_testBrackets - 2018.01.24 at 15h 37m 24s.xml">
       <configuration name="ArithmeticTests.testBrackets" configurationId="JUnit" />
     </history-entry>
@@ -504,7 +490,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24749772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24749772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -671,17 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-          <folding>
-            <element signature="e#234#245#0" expanded="true" />
-            <element signature="e#315#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterpreterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -703,10 +678,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ArithmeticTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="123" column="4" lean-forward="false" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+        <state relative-caret-position="1845">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="78" column="36" lean-forward="true" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
+          <folding>
+            <element signature="e#234#245#0" expanded="true" />
+            <element signature="e#315#326#0" expanded="true" />
           </folding>
         </state>
       </provider>
