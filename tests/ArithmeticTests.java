@@ -102,7 +102,7 @@ public class ArithmeticTests {
     }
 
     @Test
-    public void testRemanderDivision(){
+    public void testRemainderDivision(){
         int result = interpretCode("55/10");
         assertEquals(5, result);
     }

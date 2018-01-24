@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65e4a43-a40c-4635-84d0-0b24b5ab8329" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lexer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/BinOP.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Num.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/PascalInterpreter/Interpreter.class" afterPath="$PROJECT_DIR$/out/production/PascalInterpreter/Interpreter.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PascalInterpreter/InterpreterTest.class" afterPath="$PROJECT_DIR$/out/production/PascalInterpreter/InterpreterTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PascalInterpreter/TokenType.class" afterPath="$PROJECT_DIR$/out/production/PascalInterpreter/TokenType.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/PascalInterpreter/ArithmeticTests.class" afterPath="$PROJECT_DIR$/out/test/PascalInterpreter/ArithmeticTests.class" />
-      <change beforePath="$PROJECT_DIR$/src/Interpreter.java" afterPath="$PROJECT_DIR$/src/Interpreter.java" />
-      <change beforePath="$PROJECT_DIR$/src/InterpreterTest.java" afterPath="$PROJECT_DIR$/src/InterpreterTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/TokenType.java" afterPath="$PROJECT_DIR$/src/TokenType.java" />
       <change beforePath="$PROJECT_DIR$/tests/ArithmeticTests.java" afterPath="$PROJECT_DIR$/tests/ArithmeticTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,11 +30,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ArithmeticTests.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ArithmeticTests.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tests/ArithmeticTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="177">
-                  <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+                <state relative-caret-position="-3">
+                  <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -50,12 +45,42 @@
           <file leaf-file-name="Lexer.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Lexer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="594">
-                  <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+                <state relative-caret-position="510">
+                  <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
                   <folding>
                     <element signature="e#259#260#0" expanded="true" />
                     <element signature="e#291#292#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AST.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/AST.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BinOP.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/BinOP.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Num.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Num.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -92,8 +117,8 @@
           <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="539">
-                  <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+                <state relative-caret-position="659">
+                  <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
                   <folding>
                     <element signature="e#234#245#0" expanded="true" />
                     <element signature="e#315#326#0" expanded="true" />
@@ -147,8 +172,11 @@
         <option value="$PROJECT_DIR$/src/TokenType.java" />
         <option value="$PROJECT_DIR$/src/Lexer.java" />
         <option value="$PROJECT_DIR$/src/InterpreterTest.java" />
-        <option value="$PROJECT_DIR$/tests/ArithmeticTests.java" />
         <option value="$PROJECT_DIR$/src/Interpreter.java" />
+        <option value="$PROJECT_DIR$/tests/ArithmeticTests.java" />
+        <option value="$PROJECT_DIR$/src/AST.java" />
+        <option value="$PROJECT_DIR$/src/BinOP.java" />
+        <option value="$PROJECT_DIR$/src/Num.java" />
       </list>
     </option>
   </component>
@@ -581,14 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterpreterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PascalInterpreter.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -602,17 +622,6 @@
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,24 +646,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterpreterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/ArithmeticTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+        <state relative-caret-position="-3">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        <state relative-caret-position="659">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
           <folding>
             <element signature="e#234#245#0" expanded="true" />
             <element signature="e#315#326#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Num.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
