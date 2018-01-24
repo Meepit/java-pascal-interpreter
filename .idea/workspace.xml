@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b65e4a43-a40c-4635-84d0-0b24b5ab8329" name="Default" comment="" />
+    <list default="true" id="b65e4a43-a40c-4635-84d0-0b24b5ab8329" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lexer.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/PascalInterpreter/Interpreter.class" afterPath="$PROJECT_DIR$/out/production/PascalInterpreter/Interpreter.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/PascalInterpreter/InterpreterTest.class" afterPath="$PROJECT_DIR$/out/production/PascalInterpreter/InterpreterTest.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/PascalInterpreter/TokenType.class" afterPath="$PROJECT_DIR$/out/production/PascalInterpreter/TokenType.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/PascalInterpreter/ArithmeticTests.class" afterPath="$PROJECT_DIR$/out/test/PascalInterpreter/ArithmeticTests.class" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter.java" afterPath="$PROJECT_DIR$/src/Interpreter.java" />
+      <change beforePath="$PROJECT_DIR$/src/InterpreterTest.java" afterPath="$PROJECT_DIR$/src/InterpreterTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/TokenType.java" afterPath="$PROJECT_DIR$/src/TokenType.java" />
+      <change beforePath="$PROJECT_DIR$/tests/ArithmeticTests.java" afterPath="$PROJECT_DIR$/tests/ArithmeticTests.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,35 +35,26 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
+          <file leaf-file-name="ArithmeticTests.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/ArithmeticTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="283">
-                  <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+                <state relative-caret-position="177">
+                  <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
                   <folding>
-                    <element signature="e#278#289#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PascalInterpreter.iml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PascalInterpreter.iml">
+          <file leaf-file-name="Lexer.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Lexer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ArithmeticTests.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/ArithmeticTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+                <state relative-caret-position="594">
+                  <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#259#260#0" expanded="true" />
+                    <element signature="e#291#292#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -87,11 +89,24 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="InterpreterTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="539">
+                  <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#234#245#0" expanded="true" />
+                    <element signature="e#315#326#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InterpreterTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/InterpreterTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -126,13 +141,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/TokenTypes.java" />
-        <option value="$PROJECT_DIR$/src/TokenType.java" />
         <option value="$PROJECT_DIR$/src/Token.java" />
         <option value="$PROJECT_DIR$/src/tests/ArithmeticTests.java" />
+        <option value="$PROJECT_DIR$/src/TokenFactory.java" />
+        <option value="$PROJECT_DIR$/src/TokenType.java" />
+        <option value="$PROJECT_DIR$/src/Lexer.java" />
         <option value="$PROJECT_DIR$/src/InterpreterTest.java" />
         <option value="$PROJECT_DIR$/tests/ArithmeticTests.java" />
         <option value="$PROJECT_DIR$/src/Interpreter.java" />
-        <option value="$PROJECT_DIR$/src/TokenFactory.java" />
       </list>
     </option>
   </component>
@@ -167,6 +183,11 @@
             <path>
               <item name="PascalInterpreter" type="b2602c69:ProjectViewProjectNode" />
               <item name="PascalInterpreter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PascalInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PascalInterpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PascalInterpreter" type="b2602c69:ProjectViewProjectNode" />
@@ -411,21 +432,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArithmeticTests - 2018.01.23 at 21h 54m 48s.xml">
-      <configuration name="ArithmeticTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArithmeticTests - 2018.01.23 at 21h 56m 09s.xml">
-      <configuration name="ArithmeticTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArithmeticTests - 2018.01.23 at 21h 57m 37s.xml">
-      <configuration name="ArithmeticTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArithmeticTests - 2018.01.23 at 21h 59m 14s.xml">
-      <configuration name="ArithmeticTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArithmeticTests - 2018.01.23 at 22h 00m 58s.xml">
-      <configuration name="ArithmeticTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArithmeticTests - 2018.01.23 at 22h 23m 30s.xml">
       <configuration name="ArithmeticTests" configurationId="JUnit" />
     </history-entry>
@@ -441,13 +447,29 @@
     <history-entry file="ArithmeticTests - 2018.01.24 at 10h 05m 21s.xml">
       <configuration name="ArithmeticTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArithmeticTests - 2018.01.24 at 11h 46m 18s.xml">
+      <configuration name="ArithmeticTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticTests - 2018.01.24 at 11h 48m 42s.xml">
+      <configuration name="ArithmeticTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticTests - 2018.01.24 at 11h 49m 52s.xml">
+      <configuration name="ArithmeticTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticTests - 2018.01.24 at 11h 59m 09s.xml">
+      <configuration name="ArithmeticTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArithmeticTests - 2018.01.24 at 11h 59m 38s.xml">
+      <configuration name="ArithmeticTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1599" y="0" width="1922" height="1200" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939035" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -458,7 +480,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -492,10 +514,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35142118" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24749772" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.131875" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.109375" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -559,11 +581,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterpreterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PascalInterpreter.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TokenType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,33 +629,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterpreterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TokenFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
-          <folding>
-            <element signature="e#278#289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PascalInterpreter.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -616,10 +639,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ArithmeticTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="177">
+          <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+          <folding>
+            <element signature="e#234#245#0" expanded="true" />
+            <element signature="e#315#326#0" expanded="true" />
           </folding>
         </state>
       </provider>

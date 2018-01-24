@@ -6,10 +6,12 @@ import static junit.framework.TestCase.assertTrue;
 public class ArithmeticTests {
 
     private int interpretCode(String code){
-        Interpreter interpreter = new Interpreter(code);
+        Lexer lexer = new Lexer(code);
+        Interpreter interpreter = new Interpreter(lexer);
         return interpreter.expr();
     }
 
+    // Addition tests
     @Test
     public void testSingleDigitAddition() {
         int result = interpretCode("5+1");
@@ -28,6 +30,7 @@ public class ArithmeticTests {
         assertEquals(59, result);
     }
 
+    // Subtraction tests
     @Test
     public void testSingleDigitSubtraction(){
         int result = interpretCode("9-2");
@@ -46,12 +49,8 @@ public class ArithmeticTests {
         assertEquals(55, result);
     }
 
-    @Test
-    public void testAdditionSubtraction(){
-        int result = interpretCode("20+10-5+15");
-        assertEquals(40, result);
-    }
 
+    // Misc tests
     @Test
     public void testValidWhiteSpace(){
         int result = interpretCode("10   + 10 -3+ 1");
@@ -62,5 +61,56 @@ public class ArithmeticTests {
     public void testSingleFactor(){
         int result = interpretCode("5");
         assertEquals(5, result);
+    }
+
+    // Multiplication tests
+    @Test
+    public void testSingleDigitMultiplication(){
+        int result = interpretCode("5*5");
+        assertEquals(25, result);
+    }
+
+    @Test
+    public void testMultiDigitMultiplication(){
+        int result = interpretCode("10*20");
+        assertEquals(200, result);
+    }
+
+    @Test
+    public void testMultiOperatorMultiplication(){
+        int result = interpretCode("5*5*10");
+        assertEquals(250, result);
+    }
+
+    //Division tests
+    @Test
+    public void testSingleDigitDivision(){
+        int result = interpretCode("5/5");
+        assertEquals(1, result);
+    }
+
+    @Test
+    public void testMultiDigitDivision(){
+        int result = interpretCode("100/50");
+        assertEquals(2, result);
+    }
+
+    @Test
+    public void testMultiOperatorDivision(){
+        int result = interpretCode("50/10/5");
+        assertEquals(1, result);
+    }
+
+    @Test
+    public void testRemanderDivision(){
+        int result = interpretCode("55/10");
+        assertEquals(5, result);
+    }
+
+    // Mixed operator tests
+    @Test
+    public void testAdditionSubtraction(){
+        int result = interpretCode("20+10-5+15");
+        assertEquals(40, result);
     }
 }
