@@ -113,4 +113,13 @@ public class ArithmeticTests {
         int result = interpretCode("20+10-5+15");
         assertEquals(40, result);
     }
+
+    //Bracket tests
+    @Test
+    public void testBrackets(){
+        int result = interpretCode("(50+5)/11");
+        assertEquals(5, result);
+    }
+
+    
 }

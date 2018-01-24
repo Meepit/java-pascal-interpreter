@@ -49,11 +49,22 @@ public class Interpreter {
     }
 
     private int factor(){
-        //factor : INTEGER
+        //factor : INTEGER | LPAREN expr RPAREN
         Token token;
         token = this.currentToken;
-        eat(TokenType.INTEGER);
-        return Integer.parseInt(token.getValue());
+        int result = 0;
+
+        if(token.getType() == TokenType.INTEGER){
+            eat(TokenType.INTEGER);
+            return Integer.parseInt(token.getValue());
+        } else if(token.getType() == TokenType.LPAREN){
+            eat(TokenType.LPAREN);
+            result = expr();
+            eat(TokenType.RPAREN);
+            return result;
+        }
+        error();
+        return result;
     }
 
     public int expr(){
