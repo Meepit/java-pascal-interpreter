@@ -109,7 +109,7 @@ public class Lexer {
                 advance();
                 token = new Token(TokenType.RPAREN, ')');
                 return token;
-            } else if(Character.isLetter(this.currentChar) || Character.isDigit(this.currentChar)){
+            } else if(Character.isLetter(this.currentChar)){
                 return id();
             } else if(currentChar == ':' && peek() == '='){
                 advance();

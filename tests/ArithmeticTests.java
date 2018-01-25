@@ -16,7 +16,7 @@ public class ArithmeticTests {
     // Addition tests
     @Test
     public void testSingleDigitAddition() {
-        int result = interpretCode("5+1");
+        int result = interpretCode("BEGIN a := 5+1 END.");
         assertEquals(6, result);
     }
 

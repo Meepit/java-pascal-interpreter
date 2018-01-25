@@ -31,6 +31,83 @@ public class Parser {
         }
     }
 
+    private AST program(){
+        //program : compound_statement DOT
+        AST node = compoundStatement();
+        eat(TokenType.DOT);
+        return node;
+    }
+
+    private AST compoundStatement(){
+        //compound_statement : BEGIN statement_left END
+        eat(TokenType.BEGIN);
+        ArrayList<AST> nodes = statementList();
+        eat(TokenType.END);
+        Compound root = new Compound();
+        for(AST node : nodes){
+            root.getChildren().add(node);
+        }
+        return root;
+    }
+
+    private ArrayList<AST> statementList(){
+        //statement_list : statement
+        //               || statement SEMI statement_list
+        AST node = statement();
+
+        ArrayList<AST> results = new ArrayList<AST>();
+        results.add(node);
+
+        while(this.currentToken.getType() == TokenType.SEMI){
+            eat(TokenType.SEMI);
+            results.add(statement());
+        }
+
+        if(this.currentToken.getType() == TokenType.SEMI){
+            error();
+        }
+
+        return results;
+    }
+
+    private AST statement(){
+        //statement : compound_statement
+        //          : assignment_statement
+        //          : empty
+
+        AST node = new AST();
+        if(this.currentToken.getType() == TokenType.BEGIN){
+             node = compoundStatement();
+        } else if(this.currentToken.getType() == TokenType.ID){
+             node = assignmentStatement();
+        } else {
+             node = empty();
+        }
+        return node;
+    }
+
+    private AST assignmentStatement(){
+        //assignment_statement : variable ASSIGN expr
+
+        Var left = variable();
+        Token token = this.currentToken;
+        eat(TokenType.ASSIGN);
+        AST right = expr();
+        Assign node = new Assign(left, token, right);
+        return node;
+    }
+
+    private Var variable(){
+        //variable : ID
+        Var node = new Var(this.currentToken);
+        eat(TokenType.ID);
+        return node;
+    }
+
+    private AST empty(){
+        return new NoOp();
+    }
+
     private AST term(){
         // term : factor((MUL | DIV) factor)*
         AST node = factor();
@@ -71,9 +148,10 @@ public class Parser {
             node = expr();
             eat(TokenType.RPAREN);
             return node;
+        } else {
+            node = variable();
+            return node;
         }
-        error();
-        return node;
     }
 
     private AST expr(){
@@ -97,6 +175,11 @@ public class Parser {
     }
 
     public AST parse(){
-        return expr();
+        AST node = program();
+        if(this.currentToken.getType() != TokenType.EOF){
+            error();
+        }
+
+        return node;
     }
 }
