@@ -51,21 +51,6 @@ public class Parser {
 
     private AST factor(){
         //factor : INTEGER | LPAREN expr RPAREN
-//        Token token;
-//        token = this.currentToken;
-//        AST node = new AST();
-//
-//        if(token.getType() == TokenType.INTEGER){
-//            eat(TokenType.INTEGER);
-//            return new Num(token);
-//        } else if(token.getType() == TokenType.LPAREN){
-//            eat(TokenType.LPAREN);
-//            AST newNode = expr();
-//            eat(TokenType.RPAREN);
-//            return newNode;
-//        }
-//        error();
-//        return node;
 
         AST node = new AST();
         Token token = this.currentToken;
