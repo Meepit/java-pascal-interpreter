@@ -123,5 +123,22 @@ public class ArithmeticTests {
         assertEquals(5, result);
     }
 
+    //Unary tests
+    @Test
+    public void testDoubleMinus(){
+        int result = interpretCode("--5+5");
+        assertEquals(10, result);
+    }
 
+    @Test
+    public void testMultiOperatorDoubleMinus(){
+        int result = interpretCode("10*--5");
+        assertEquals(50, result);
+    }
+
+    @Test
+    public void testPlusMinusUnaryOperators(){
+        int result = interpretCode("+-5+5");
+        assertEquals(0, result);
+    }
 }

@@ -46,22 +46,46 @@ public class Parser {
             node = new BinOP(node, token, factor());
         }
         return node;
+
     }
 
     private AST factor(){
         //factor : INTEGER | LPAREN expr RPAREN
-        Token token;
-        token = this.currentToken;
-        AST node = new AST();
+//        Token token;
+//        token = this.currentToken;
+//        AST node = new AST();
+//
+//        if(token.getType() == TokenType.INTEGER){
+//            eat(TokenType.INTEGER);
+//            return new Num(token);
+//        } else if(token.getType() == TokenType.LPAREN){
+//            eat(TokenType.LPAREN);
+//            AST newNode = expr();
+//            eat(TokenType.RPAREN);
+//            return newNode;
+//        }
+//        error();
+//        return node;
 
-        if(token.getType() == TokenType.INTEGER){
+        AST node = new AST();
+        Token token = this.currentToken;
+        if(token.getType() == TokenType.PLUS){
+            eat(TokenType.PLUS);
+            node = new UnaryOp(token, factor());
+            return node;
+        } else if(token.getType() == TokenType.MINUS){
+            eat(TokenType.MINUS);
+            node = new UnaryOp(token, factor());
+            return node;
+        } else if(token.getType() == TokenType.INTEGER){
             eat(TokenType.INTEGER);
-            return new Num(token);
+            node = new Num(token);
+            return node;
         } else if(token.getType() == TokenType.LPAREN){
             eat(TokenType.LPAREN);
-            AST newNode = expr();
+            node = expr();
             eat(TokenType.RPAREN);
-            return newNode;
+            return node;
         }
         error();
         return node;

@@ -7,6 +7,8 @@ public class NodeVisitor {
             return visitBinOP((BinOP) node);
         } else if(methodName.equals("Num")){
             return visitNum((Num) node);
+        } else if(methodName.equals("UnaryOp")){
+            return visitUnaryOP((UnaryOp) node);
         } else {
             throw new RuntimeException("No valid visit method implemented");
         }
@@ -29,4 +31,15 @@ public class NodeVisitor {
     public int visitNum(Num node){
         return node.getValue();
     }
+
+    public int visitUnaryOP(UnaryOp node){
+        TokenType op = node.getOp().getType();
+        if(op == TokenType.PLUS){
+            return +visit(node.getExpr());
+        } else if(op == TokenType.MINUS){
+            return -visit(node.getExpr());
+        }
+        return 0;
+    }
+
 }
