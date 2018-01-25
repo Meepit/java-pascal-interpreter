@@ -6,4 +6,8 @@ public class Num extends AST{
         this.token = token;
         this.value = Integer.parseInt(token.getValue());
     }
+
+    public int getValue(){
+        return this.value;
+    }
 }

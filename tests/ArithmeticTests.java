@@ -7,8 +7,10 @@ public class ArithmeticTests {
 
     private int interpretCode(String code){
         Lexer lexer = new Lexer(code);
-        Interpreter interpreter = new Interpreter(lexer);
-        return interpreter.expr();
+        Parser parser = new Parser(lexer);
+        Interpreter interpreter = new Interpreter(parser);
+        int result = interpreter.interpret();
+        return result;
     }
 
     // Addition tests
